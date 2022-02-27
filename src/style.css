@@ -1,4 +1,12 @@
+header{
+  display:inline;
+  background: gray;
+  height: 200px;
+}
+
+/* content */
 #columns{
+  margin: 50px;
   column-width:300px;
   /* border:5px solid green; */
   column-gap:15px;
