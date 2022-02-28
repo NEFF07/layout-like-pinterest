@@ -1,17 +1,3 @@
-/* header */
-header{
-  background: lightgray;
-  height: 80px;
-}
-
-.inline{
-  display:inline;
-}
-.border{
-  border: 1px solid green ;
-}
-
-/* content */
 #columns{
   margin: 50px;
   column-width:300px;

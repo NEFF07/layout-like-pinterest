@@ -1,0 +1,11 @@
+.container{
+  background: lightgray;
+  height: 80px;
+  display:flex ;
+}
+.item{
+  
+}
+.border{
+  border: 1px solid green ;
+}
