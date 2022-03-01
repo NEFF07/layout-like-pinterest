@@ -1,11 +1,21 @@
 .container{
   background: lightgray;
-  height: 80px;
-  display:flex ;
+  height: 45px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 .item{
-  
+  flex-basis: 50px;
+  flex-grow: 0;
+  margin: 5px;
+  padding: 5px;
 }
+.item:nth-child(3){
+  flex-grow: 1;
+}
+
 .border{
   border: 1px solid green ;
 }
